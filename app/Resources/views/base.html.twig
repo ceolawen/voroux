@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}OL Voroux{% endblock %}</title>
+        {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" type="text/css" />
+        <link rel="stylesheet" href="{{ asset('css/bootstrapOverload.css') }}" type="text/css" />
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body class="body-grey">
+        &nbsp;
+        <div class=container>
+            <div class=well-blue >
+                <table >
+                    <tr>
+                        <td width=130px><img src='{{asset('img/fcvoroux.gif')}}'></td>
+                        <td width=365px align="center"><h1>OL Voroux</h1></td>
+                        <td width=145px><img class="img_polaroid" src='{{asset('img/voroux2.png')}}' width="120"></td>
+                        <td width=145px><img class="img_polaroid" src='{{asset('img/voroux1.png')}}' width="120"></td>
+                        <td width=145px><img class="img_polaroid" src='{{asset('img/voroux2.png')}}' width="120"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <ul class="nav">
+                        <li class="active"><a href="#">Accueil</a></li>
+                        <li><a href="#">Club</a></li>
+                        <li><a href="#">Saison 2013-2014</a></li>
+                        <li><a href="#">Historique</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class=well-white >
+                {% block body %}{% endblock %}
+                </div>
+            </div>
+
+        </body>
+    </html>

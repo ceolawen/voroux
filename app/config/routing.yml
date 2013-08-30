@@ -1,0 +1,4 @@
+nikko_app:
+    resource: "@NikkoAppBundle/Resources/config/routing.yml"
+    prefix:   /app/
+

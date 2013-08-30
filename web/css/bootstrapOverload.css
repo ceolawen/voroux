@@ -1,0 +1,74 @@
+/* 
+    Document   : bootstrapOverload
+    Created on : 30-août-2013, 14:43:14
+    Author     : Nikko
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.body-grey {
+    background-image: linear-gradient(bottom, rgb(215,219,224) 43%, rgb(150,154,158) 72%);
+    background-image: -o-linear-gradient(bottom, rgb(215,219,224) 43%, rgb(150,154,158) 72%);
+    background-image: -moz-linear-gradient(bottom, rgb(215,219,224) 43%, rgb(150,154,158) 72%);
+    background-image: -webkit-linear-gradient(bottom, rgb(215,219,224) 43%, rgb(150,154,158) 72%);
+    background-image: -ms-linear-gradient(bottom, rgb(215,219,224) 43%, rgb(150,154,158) 72%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.43, rgb(215,219,224)),
+        color-stop(0.72, rgb(150,154,158))
+        );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.well-blue {
+    width:1000px;
+    height:138px;
+    background-color: #0B2161;
+    color: white;
+    margin-bottom: 0px;  
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-top-left-radius: 20px;
+    -moz-border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well-white {
+    width:1000px;
+    height:650px;
+    background-color: whitesmoke;
+    color: black;
+    margin-bottom: 0px;  
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-bottom-left-radius: 20px;
+    -moz-border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.navbar{
+    margin-bottom: 0px;
+    width: 1000px;
+}
+/*.navbar-inner {
+    background-color: #0B2161;
+    background-image: none;
+    background-repeat: no-repeat;
+    filter: none;
+    border-color: navy;
+    color: white;
+}*/

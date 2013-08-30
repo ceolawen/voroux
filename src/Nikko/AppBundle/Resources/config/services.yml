@@ -1,0 +1,7 @@
+parameters:
+#    nikko_app.example.class: Nikko\AppBundle\Example
+
+services:
+#    nikko_app.example:
+#        class: %nikko_app.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,3 @@
+nikko_app_homepage:
+    pattern:  /
+    defaults: { _controller: NikkoAppBundle:Default:index }

@@ -1,0 +1,16 @@
+/* 
+    Document   : main
+    Created on : 29-août-2013, 18:12:18
+    Author     : Nikko
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+div.divHeader {
+    background-color: #004175;
+    width: 1000px;
+}
